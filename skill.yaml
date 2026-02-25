@@ -10,3 +10,5 @@ files:
   - IDENTITY.md
   - SOUL.md (optional)
 keywords: [identity, compression, persona, familiar, tokens]
+commands:
+  configure: "python3 ~/.openclaw/skills/ai-familiar/configure.py"
