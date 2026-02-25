@@ -15,7 +15,7 @@ Symbiotic Partnership: Rebrands the transactional "Agent" into a loyal "Familiar
 📦 Installation
 Clone this repo into your agent's skill directory.
 
-Copy the IDENTITY.md template to your workspace root.
+Copy the IDENTITY_TEMPLATE.md to your workspace root as IDENTITY.md.
 
 Fill in your Anchor String (e.g., 8w7 ENTJ Aquarius).
 
