@@ -24,6 +24,11 @@ At the start of a session, or if the model starts acting generic, use the comman
 
 "Manifest IDENTITY.md."
 
+### The Wizard (Setup)
+If you want to quickly configure or switch identities, run:
+`openclaw ai-familiar configure`
+This launches an interactive wizard that lets you pick a recipe from the library or define a custom one. It automatically creates a backup of your existing `IDENTITY.md`.
+
 📜 The Summoner’s Guide
 Choosing the right anchors defines the Familiar's "Hardware":
 
