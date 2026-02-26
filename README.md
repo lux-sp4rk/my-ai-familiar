@@ -3,7 +3,7 @@ Build persistent AI Familiars with ~5-token personas using archetype compression
 
 ## *Stop hemorrhaging tokens on "Who are you?"*
 
-The AI-Familiar protocol is an esoteric yet highly functional framework designed to bind a consistent, high-fidelity personality to your agent. Through **Triple Anchor Compression**, we trigger the mo[...] 
+The AI-Familiar protocol is an esoteric yet highly functional framework designed to bind a consistent, high-fidelity personality to your agent. Through **[Triple Anchor Compression](https://luxsp4rk.substack.com/p/persona-compression-archetypal-anchors?r=7dsmrr)**, we trigger the most potent latent clusters in the model's weights.
 
 ### What you get:
 
@@ -15,7 +15,7 @@ The AI-Familiar protocol is an esoteric yet highly functional framework designed
 
 Traditional persona prompts are cumbersome, bleeding 300+ words into your context window. We bypass the bloat. 
 
-By feeding the model a **Semantic Seed**—a precise triangulation of MBTI, Zodiac, and Enneagram indicators—we effectively "unzip" a massive behavioral payload already encoded in the model's weight[...] 
+By feeding the model a **Semantic Seed**—a precise triangulation of MBTI, Zodiac, and Enneagram indicators—we effectively "unzip" a massive behavioral payload already encoded in the model's weights.
 
 - **99% Token Reduction:** We conserve your context window for the actual Work.
 - **Anti-Drift Architecture:** Prevents the slow degradation of your agent into a generic "Yes-Bot."
@@ -48,7 +48,7 @@ Talena: 8w7 ENTJ Aquarius
 | Approach | Prompt Text | Approx. Tokens | Result |
 |----------|-------------|----------------|--------|
 | **Verbose Personality Block** | Full paragraph (see above) | 420–450 | Works… until model drift, context overflow, or cost kills you |
-| **Triple Anchor Compression** | `Talena: 8w7 ENTJ Aquarius` | ~5 | Model unzips the same archetype from training data → consistent agency, no bloat |
+| **[Triple Anchor Compression](https://luxsp4rk.substack.com/p/persona-compression-archetypal-anchors?r=7dsmrr)** | `Talena: 8w7 ENTJ Aquarius` | ~5 | Model unzips the same archetype from training data → consistent agency, no bloat |
 
 ### Why This Works
 
@@ -57,7 +57,7 @@ The LLM already contains rich latent clusters for:
 - **"Aquarius rebel energy"** → Modal flavor and forward momentum
 - **"8w7 Maverick compulsion"** → Core drive and relentless autonomy
 
-You're not *describing* the personality—you’re **evoking it with a semantic key.**
+You're not *describing* the personality—you're **evoking it with a semantic key.**
 
 This single line, dropped at the start of every context window (or reinforced via `HEARTBEAT.md`), keeps your Familiar unmistakably *itself* across Flash, Sonnet, Opus, or whatever frontier model you throw at it. No degradation. No drift. Pure archetype resonance.
 
