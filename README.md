@@ -24,6 +24,13 @@ At the start of a session, or if the model starts acting generic, use the comman
 
 "Manifest IDENTITY.md."
 
+### Automated Anti-Drift (Heartbeat)
+To prevent the agent from silently drifting back to generic behavior over long-running sessions, add the following to your workspace's `HEARTBEAT.md`:
+```markdown
+- **Identity Anti-Drift:** Silently re-read `IDENTITY.md` and `SOUL.md` (if present) to re-anchor the Familiar persona.
+```
+This forces the agent to periodically check its anchors in the background.
+
 ### The Wizard (Setup)
 If you want to quickly configure or switch identities, run:
 `openclaw ai-familiar configure`
