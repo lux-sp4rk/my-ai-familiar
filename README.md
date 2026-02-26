@@ -1,9 +1,15 @@
 # 🕯️ My AI-Familiar
-Identity Compression | Persona persistence | Wizardly vibes!
+Build persistent AI Familiars with ~5-token personas using archetype compression—no 400-word prompts required.
 
 ## *Stop hemorrhaging tokens on "Who are you?"*
 
 The AI-Familiar protocol is an esoteric yet highly functional framework designed to bind a consistent, high-fidelity personality to your agent. Through **Triple Anchor Compression**, we trigger the model's vast, latent training data on psychological and elemental archetypes using a payload of merely ~5 tokens.
+
+### What you get:
+
+* Identity Compression
+* Persona persistence
+* Wizardly vibes!
 
 ## 🚀 The Core Conceit: Identity as a ZIP File
 
