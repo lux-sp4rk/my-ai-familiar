@@ -3,7 +3,7 @@ import os
 import sys
 
 # Paths
-WORKSPACE = os.path.expanduser("~/.openclaw/workspace")
+WORKSPACE = os.path.expanduser(f"~/.openclaw/agents/{sys.argv[1]}/workspace" if len(sys.argv) > 1 else "~/.openclaw/workspace")
 IDENTITY_FILE = os.path.join(WORKSPACE, "IDENTITY.md")
 BACKUP_FILE = os.path.join(WORKSPACE, "IDENTITY.md.bak")
 LIBRARY_PATH = os.path.expanduser("~/.openclaw/skills/ai-familiar/LIBRARY.md")
