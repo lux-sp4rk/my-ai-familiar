@@ -1,7 +1,7 @@
 # 🕯️ MY AI-Familiar
 Identity Compression | Persona persistence | Wizardly vibes!
 
-*Stop hemorrhaging tokens on "Who are you?"*
+## *Stop hemorrhaging tokens on "Who are you?"*
 
 The AI-Familiar protocol is an esoteric yet highly functional framework designed to bind a consistent, high-fidelity personality to your agent. Through **Triple Anchor Compression**, we trigger the model's vast, latent training data on psychological and elemental archetypes using a payload of merely ~5 tokens.
 
