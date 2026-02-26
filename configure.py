@@ -101,6 +101,15 @@ def run_wizard():
         print("Invalid input.")
         return
 
+    # Verify target directory with user before writing
+    print(f"\n📁 Target workspace: {WORKSPACE}")
+    if "OPENCLAW_WORKSPACE" in os.environ:
+        print("   (resolved from $OPENCLAW_WORKSPACE)")
+    confirm = input("Write IDENTITY.md to this location? [y/N]: ").strip().lower()
+    if confirm != "y":
+        print("Aborted. No files were modified.")
+        return
+
     # Backup existing IDENTITY.md
     if os.path.exists(IDENTITY_FILE):
         import shutil

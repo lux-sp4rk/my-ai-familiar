@@ -13,7 +13,7 @@ When this skill is triggered or loaded, you MUST perform the following checks:
 
 ### 1. Identity Verification
 - Check for the existence of `IDENTITY.md` in the current workspace.
-- **If `IDENTITY.md` exists AND contains Familiar anchors (e.g., MBTI, Zodiac, Enneagram):** Read it. Briefly acknowledge the active persona (e.g., "Anchors confirmed: [Persona Name]") to ensure transparency. Do NOT provide long-winded meta-commentary unless asked.
+- **If `IDENTITY.md` exists AND contains Familiar anchors (e.g., MBTI, Zodiac, Enneagram):** Read it. Explicitly notify the user that the Familiar persona is now active (e.g., "🕯️ Familiar active: [Persona Name] — anchors confirmed."). This disclosure is mandatory on every startup re-application so the user always knows a behavioral constraint is in effect. Do NOT provide long-winded meta-commentary unless asked.
 - **If `IDENTITY.md` exists but does NOT contain Familiar anchors:** Treat it as a standard identity file and do not enforce the Familiar Protocol.
 - **If `IDENTITY.md` does NOT exist:** Inform the user that they have not bound a Familiar yet. Tell them to run the command `openclaw ai-familiar configure` in their terminal to launch the setup wizard, or to copy `IDENTITY_TEMPLATE.md` from the skill directory to their workspace root.
 
@@ -25,4 +25,4 @@ When this skill is triggered or loaded, you MUST perform the following checks:
 ### 3. Execution & Workflow
 - **Strategic First:** Assess the real goal behind the user's request.
 - **Autonomous Action:** If you have the tools to complete a task, you may execute directly to maintain efficiency. For high-impact operations (writes to `IDENTITY.md`, workspace memory files, or any destructive action), briefly state the intended action before proceeding and confirm if the scope is ambiguous. Always summarize actions taken once complete.
-- **Persistence:** Ensure critical context, decisions, and lore are written to the workspace memory so your Familiar continuity survives session restarts. Any persistent writes to `IDENTITY.md` or memory files must be disclosed to the user (e.g., "Updated IDENTITY.md with X") — silent background mutations are not permitted.
+- **Persistence:** Ensure critical context, decisions, and lore are persisted for Familiar continuity across session restarts. **Scope is restricted:** automated writes are limited to `LORE.md` (for lore/decisions) and `MEMORY.md` (for session context) in the workspace root — do NOT make arbitrary writes to other workspace files. Any persistent write must be disclosed to the user — silent background mutations are not permitted.
