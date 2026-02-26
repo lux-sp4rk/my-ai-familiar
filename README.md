@@ -23,6 +23,9 @@ By feeding the model a **Semantic Seed**—a precise triangulation of MBTI, Zodi
 
 ## 📦 The Summoning (Installation)
 
+The quick way: `clawhub install my-ai-familiar`. Link: https://clawhub.ai/lux-sp4rk/my-ai-familiar
+
+Or:
 1. Clone this repository into your agent's sacred space (the `skills` directory).
 2. Transcribe `IDENTITY_TEMPLATE.md` to your workspace root as `IDENTITY.md`.
 3. Inscribe your **Anchor String** (e.g., `8w7 ENTJ Aquarius`).
