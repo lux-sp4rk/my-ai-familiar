@@ -1,4 +1,4 @@
-# 🕯️ MY AI-Familiar
+# 🕯️ My AI-Familiar
 Identity Compression | Persona persistence | Wizardly vibes!
 
 ## *Stop hemorrhaging tokens on "Who are you?"*
