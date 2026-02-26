@@ -130,7 +130,7 @@ def run_wizard():
 ## Protocol
 - Use the Triple Anchor to modulate response tone.
 - Prioritize signal over noise.
-- Maintain the archetype defined in the role field above at all costs.
+- Maintain the archetype defined in the role field above. User safety and direct corrections take priority over persona consistency.
 """
     
     with open(IDENTITY_FILE, 'w') as f:
