@@ -1,5 +1,5 @@
 # 🕯️ My AI-Familiar
-Build persistent AI Familiars with ~5-token personas using archetype compression—no 400-word prompts required.
+Build persistent AI Familiars with ~5-token personas using archetype compression—no 400-word prompts required!
 
 ## *Stop hemorrhaging tokens on "Who are you?"*
 
