@@ -1,5 +1,5 @@
 name: my-ai-familiar
-version: 1.1.0
+version: 1.2.0
 description: "High-density identity compression using the Triple Anchor system (MBTI/Zodiac/Enneagram). Minimizes token bloat while maximizing persona stability."
 author: "luxsp4rk"
 category: "persona/utility"
@@ -11,4 +11,4 @@ files:
   - SOUL.md (optional)
 keywords: [identity, compression, persona, familiar, tokens]
 commands:
-  configure: "python3 ~/.openclaw/skills/ai-familiar/configure.py"
+  configure: "python3 $SKILL_DIR/configure.py"

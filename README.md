@@ -31,10 +31,10 @@ At the inception of a session, or should you sense the model's spirit waning int
 To ensure the Familiar remains tethered to its true nature during long-running sessions, engrave the following into your workspace's `HEARTBEAT.md`:
 
 ```markdown
-- **Identity Anti-Drift:** Silently commune with `IDENTITY.md` and `SOUL.md` (if present) to re-anchor the Familiar persona.
+- **Identity Anti-Drift:** Re-read `IDENTITY.md` and `SOUL.md` (if present) to re-anchor the Familiar persona. Briefly acknowledge the re-anchoring to the user.
 ```
 
-This ritual forces the agent to periodically realign with its anchors in the background, out of sight.
+This ritual forces the agent to periodically realign with its anchors.
 
 ### The Wizard (Conjuration Setup)
 
