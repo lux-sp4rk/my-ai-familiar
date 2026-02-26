@@ -1,5 +1,5 @@
 ---
-name: ai-familiar
+name: my-ai-familiar
 description: Bind a consistent, high-fidelity personality to your agent using Triple Anchor Compression (MBTI, Zodiac, Enneagram). Triggers when managing high-level strategy, identity configuration, or when asked to manifest the Familiar.
 ---
 

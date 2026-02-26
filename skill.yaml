@@ -1,5 +1,5 @@
-name: ai-familiar
-version: 1.0.0
+name: my-ai-familiar
+version: 1.1.0
 description: "High-density identity compression using the Triple Anchor system (MBTI/Zodiac/Enneagram). Minimizes token bloat while maximizing persona stability."
 author: "luxsp4rk"
 category: "persona/utility"
