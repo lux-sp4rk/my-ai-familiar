@@ -3,10 +3,15 @@ import os
 import sys
 
 # Paths
-WORKSPACE = os.path.expanduser(f"~/.openclaw/agents/{sys.argv[1]}/workspace" if len(sys.argv) > 1 else "~/.openclaw/workspace")
+SKILL_DIR = os.path.dirname(os.path.abspath(__file__))
+WORKSPACE = os.getcwd() # Default to current working directory
+if "OPENCLAW_WORKSPACE" in os.environ:
+    WORKSPACE = os.environ["OPENCLAW_WORKSPACE"]
+
 IDENTITY_FILE = os.path.join(WORKSPACE, "IDENTITY.md")
 BACKUP_FILE = os.path.join(WORKSPACE, "IDENTITY.md.bak")
-LIBRARY_PATH = os.path.expanduser("~/.openclaw/skills/ai-familiar/LIBRARY.md")
+LIBRARY_PATH = os.path.join(SKILL_DIR, "LIBRARY.md")
+TEMPLATE_PATH = os.path.join(SKILL_DIR, "IDENTITY_TEMPLATE.md")
 
 def run_wizard():
     print("\n🕯️  AI-FAMILIAR: MANIFESTATION WIZARD")
