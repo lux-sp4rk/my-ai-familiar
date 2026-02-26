@@ -101,3 +101,7 @@ Choosing the right anchors defines your Familiar's hardware. Choose wisely:
 - **MBTI:** Cognitive processing (*The Engine*).
 - **Zodiac:** Modal flavor and energy (*The Vibe*).
 - **Enneagram:** Core drive and ultimate fear (*The Soul*).
+
+---
+
+Fork it, configure your own Familiar, and share what emerges. Issues/PRs welcome—let's evolve this together!
