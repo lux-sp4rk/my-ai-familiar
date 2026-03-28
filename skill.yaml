@@ -1,6 +1,6 @@
 name: my-ai-familiar
-version: 1.2.0
-description: "High-density identity compression using the Triple Anchor system (MBTI/Zodiac/Enneagram). Minimizes token bloat while maximizing persona stability."
+version: 1.3.0
+description: "High-density identity compression using the Triple Anchor system (MBTI/Zodiac/Enneagram). Minimizes token bloat while maximizes persona stability."
 author: "luxsp4rk"
 category: "persona/utility"
 hooks:
@@ -9,6 +9,7 @@ hooks:
 files:
   - IDENTITY.md
   - SOUL.md (optional)
-keywords: [identity, compression, persona, familiar, tokens]
+keywords: [identity, compression, persona, familiar, tokens, anchor]
 commands:
   configure: "python3 $SKILL_DIR/configure.py"
+  anchor: "bash $SKILL_DIR/anchor.sh"
