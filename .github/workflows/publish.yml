@@ -1,0 +1,32 @@
+name: Publish to ClawHub
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install ClawHub CLI
+        run: npm install -g clawhub
+
+      - name: Publish to ClawHub
+        run: |
+          TAG="${GITHUB_REF#refs/tags/}"          # strip "refs/tags/" → "my-ai-familiar/v1.3.0"
+          VERSION="${TAG#*/}"                     # strip "my-ai-familiar/" → "v1.3.0"
+          CLAWHUB_VERSION="${VERSION#v}"          # strip leading "v" → "1.3.0"
+          echo "Publishing version $CLAWHUB_VERSION from tag $TAG"
+          clawhub publish . --version "$CLAWHUB_VERSION"
+        env:
+          CLAWHUB_REGISTRY: https://clawhub.com
+        # Auth via CLAWHUB_TOKEN set in repository secrets
