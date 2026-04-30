@@ -51,7 +51,7 @@ clawvault.store(
 ```
 
 ### 3. Callable Interface
-**Where:** `/home/uli/.openclaw/skills/ai-familiar/drift_audit/`
+**Where:** `~/.openclaw/skills/identity-anchorer/drift_audit/`
 
 **Module signature:**
 ```python
@@ -76,7 +76,7 @@ def audit_session(
 
 **Callable from:**
 - `command:new` hook (via #11)
-- Manual CLI: `openclaw ai-familiar audit --transcript <file> --identity IDENTITY.md`
+- Manual CLI: `openclaw identity-anchorer audit --transcript <file> --identity IDENTITY.md`
 - Cron (via heartbeat)
 
 ### 4. Testing
@@ -113,7 +113,7 @@ def audit_session(
 5. Write CLI wrapper (optional, can be manual call from hook)
 
 ## References
-- GH Issue: https://github.com/lux-sp4rk/my-ai-familiar/issues/10
+- GH Issue: https://github.com/lux-sp4rk/identity-anchor/issues/10
 - Schema: `/tmp/clawvault_drift_schema.md`
 - Baseline test: `tests/session_20260304_talena_drift_baseline.jsonl`
 - Related: #9 (parent), #11 (hook handler)
